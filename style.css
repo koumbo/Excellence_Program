@@ -1,0 +1,212 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Login Form Styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-form h2 {
+  color: #0072c6;
+  text-align: center;
+  margin-top: 0;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #0072c6;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: #005a9e;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .login-form {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+
+
+/* Header Styles */
+header {
+  background-color: #f8f8f8;
+  color: rgb(0, 100, 128);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logos img {
+  height: 50px;
+  margin-left: 30px;
+}
+
+/* Accordion Styles */
+.accordion {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.accordion-header h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.accordion-header i {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.accordion.active .accordion-header i {
+  transform: rotate(180deg);
+}
+
+/* Leadership Board Styles */
+.leadership-board,
+.students-board {
+  padding: 20px;
+}
+
+.student-row {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  align-items: center;
+  padding: 10px;
+}
+
+.student-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.student-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.student-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.view-tasks {
+  text-decoration: none;
+  color: #0072c6;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .student-row {
+    grid-template-columns: 60px 1fr auto;
+  }
+
+  .student-row img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .student-info h3 {
+    font-size: 14px;
+  }
+
+  .student-info p {
+    font-size: 12px;
+  }
+}
+
+
+/* Header Styles */
+header {
+  background-color: rgb(128, 128, 128);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Tasks Section Styles */
+.tasks-section {
+  padding: 20px;
+}
+
+.task-item {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.task-item h3 {
+  margin-top: 0;
+}
+
+.task-item p {
+  margin-bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .task-item {
+    padding: 10px;
+  }
+}
