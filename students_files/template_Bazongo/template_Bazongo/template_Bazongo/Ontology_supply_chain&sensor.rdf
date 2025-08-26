@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16/"
+     xml:base="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Affected_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Affected_by">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Photovoltaic_Panels_(324_WINACO_WST-260P6)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Environmental_Conditions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Cause -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Cause">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Supplied_by"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Conversion_Losses"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Environmental_Conditions"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Solar_Irradiance_and_Temperature"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Energy_losses"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Experience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Experience">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sunny_Island_6.0H(S16-0H-13)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Trio-TM-60.0_(DCWB-SX/-SX2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Conversion_Losses"/>
+        <rdfs:label></rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Make_available -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Make_available">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sun_Power_VRL_2-1275"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sun_Power"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Monitored_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Monitored_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Burkina_Institute_of_Technology"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Proffer_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Proffer_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Trio-TM-60.0_(DCWB-SX/-SX2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#ABB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Provided_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Provided_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sunny_Island_6.0H(S16-0H-13)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#SMA_Solar_Technology"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Provides_Data_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Provides_Data_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Monitored_by"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Solar_Irradiance_and_Temperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Store -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Store">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sun_Power_VRL_2-1275"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Excess_Energy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Supplied_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Supplied_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Photovoltaic_Panels_(324_WINACO_WST-260P6)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#hep_global"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Inverters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sunny_Island_6.0H(S16-0H-13)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Trio-TM-60.0_(DCWB-SX/-SX2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#codenamed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#codenamed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#TA00794"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#ABB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#ABB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Trio-TM-60.0_(DCWB-SX/-SX2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Atmospheric_Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Atmospheric_Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Average_Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Average_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Tempearture_Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Average_Wind_Speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Average_Wind_Speed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Wind_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Batteries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Batteries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Burkina_Institute_of_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Burkina_Institute_of_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Burkina_Institute_of_Technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Conversion_Losses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Conversion_Losses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Inverters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Energy_losses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Energy_losses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Environmental_Conditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Environmental_Conditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Environmental_Conditions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Photovoltaic_Panels_(324_WINACO_WST-260P6)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Excess_Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Excess_Energy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Batteries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Inverters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Inverters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Burkina_Institute_of_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Max_Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Max_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Tempearture_Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Max_Wind_Gust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Max_Wind_Gust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Wind_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Min_Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Min_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Tempearture_Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Precipitations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Precipitations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Relative_Humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Relative_Humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#SMA_Solar_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#SMA_Solar_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sunny_Island_6.0H(S16-0H-13)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Solar_Irradiance_and_Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Solar_Irradiance_and_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sun_Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sun_Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sun_Power_VRL_2-1275"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sun_Power_VRL_2-1275 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sun_Power_VRL_2-1275">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Batteries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#TA00794 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#TA00794">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Tempearture_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Tempearture_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Wind_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Wind_data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#hep_global -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#hep_global">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Photovoltaic_Panels_(324_WINACO_WST-260P6)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Photovoltaic_Panels_(324_WINACO_WST-260P6) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Photovoltaic_Panels_(324_WINACO_WST-260P6)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Burkina_Institute_of_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sensor_ATMOS_41_(Weather_Station)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Burkina_Institute_of_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sunny_Island_6.0H(S16-0H-13) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Sunny_Island_6.0H(S16-0H-13)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Inverters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Trio-TM-60.0_(DCWB-SX/-SX2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Trio-TM-60.0_(DCWB-SX/-SX2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Inverters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Wind_Direction_(in_degreess) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Wind_Direction_(in_degreess)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16#Wind_data"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

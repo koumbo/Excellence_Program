@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16/" uri="Ontology_supply_chain&amp;sensor.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-24/" uri="reduced_ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8/" uri="ontology_bazongo.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33/" uri="energy_manager_ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology/" uri="farm_ontologysecondweek.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12/" uri="farm_ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="shadowed:http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-16/" uri="template_Bazongo/Ontology_supply_chain&amp;sensor.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="shadowed:http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-24/" uri="template_Bazongo/reduced_ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736448568957" name="shadowed:http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8/" uri="template_Bazongo/ontology_bazongo.rdf"/>
+    </group>
+</catalog>

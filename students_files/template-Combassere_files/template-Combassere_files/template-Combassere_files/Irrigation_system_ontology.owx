@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/charbel/ontologies/2024/11/IrrigationSystemOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/charbel/ontologies/2024/11/IrrigationSystemOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/charbel/ontologies/2024/11/IrrigationSystemOntology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Arduino_Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irrigation_pipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soil_humidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soil_moisture_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solenoid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_flow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controls"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#delivers_water_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#draws_water_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#measures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#regulates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transfert_data"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Flow_Rate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Humidity_Level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Valve_State"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Borehole"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Soil_moisture_sensor"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Water_Source"/>
+        <NamedIndividual IRI="#Borehole"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#controls"/>
+        <Class IRI="#Arduino_Controller"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#delivers_water_to"/>
+        <Class IRI="#Irrigation_pipes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#draws_water_from"/>
+        <Class IRI="#Irrigation_pipes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#measures"/>
+        <Class IRI="#Soil_moisture_sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#regulates"/>
+        <Class IRI="#Solenoid"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#transfert_data"/>
+        <Class IRI="#Soil_humidity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#controls"/>
+        <Class IRI="#Solenoid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#delivers_water_to"/>
+        <Class IRI="#Crops"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#draws_water_from"/>
+        <Class IRI="#Water_Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#measures"/>
+        <Class IRI="#Soil_humidity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#regulates"/>
+        <Class IRI="#Water_flow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#transfert_data"/>
+        <Class IRI="#Arduino_Controller"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Flow_Rate"/>
+        <Class IRI="#Irrigation_pipes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Humidity_Level"/>
+        <Class IRI="#Soil_humidity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Valve_State"/>
+        <Class IRI="#Solenoid"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Flow_Rate"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Humidity_Level"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Valve_State"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

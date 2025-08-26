@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1736452741420" name="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology/" uri="farm_ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736452741420" name="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15/" uri="Reduced_Ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736452741420" name="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-17/" uri="Project_Matching_ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736452741420" name="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8/" uri="Solar_Tracking_System_Ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1736452741420" name="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18/" uri="My_Project_For_Sustainable_farm.rdf"/>
+    </group>
+</catalog>

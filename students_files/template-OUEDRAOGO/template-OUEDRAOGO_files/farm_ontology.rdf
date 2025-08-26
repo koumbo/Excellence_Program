@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12/"
+     xml:base="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Marketing_and_distribution_of_products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Marketing_and_distribution_of_products"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#build_warehouses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#build_warehouses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#energy_supply_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#energy_supply_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#fencing_and_security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#fencing_and_security"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#irrigation_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#irrigation_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#land_preparation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#land_preparation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#pest_and_disease_management_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#pest_and_disease_management_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#product_transformation_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#product_transformation_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#soils_and_crops_monitoring_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#soils_and_crops_monitoring_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#waste_management_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#waste_management_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#crops&apos;_storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#crops&apos;_storage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#seeds&apos;_sowing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#seeds&apos;_sowing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#visitors&apos;_management_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#visitors&apos;_management_system"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Automatic_Irrigation_system -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Automatic_Irrigation_system">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#irrigation_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Ball_Mill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Ball_Mill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#product_transformation_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Face_Recognition_system -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Face_Recognition_system">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#fencing_and_security"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Music_Application -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Music_Application">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Marketing_and_distribution_of_products"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#No_Ressa_Voice_translation_app -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#No_Ressa_Voice_translation_app">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#visitors&apos;_management_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#cowpea_thresher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#cowpea_thresher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#product_transformation_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#energy_manager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#energy_manager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#energy_supply_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#smart_dryer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#smart_dryer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#crops&apos;_storage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#solar_tracking_system -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#solar_tracking_system">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#energy_supply_system"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

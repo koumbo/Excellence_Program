@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5/"
+     xml:base="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#approaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#approaches">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#displaysResult -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#displaysResult">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Attendance_Record"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#System_Feedback"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#has_an_institute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#has_an_institute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Nation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Institute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#owns_project -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#owns_project">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Institute"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#returnsMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#returnsMatch">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Database"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#sendsFeatures -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#sendsFeatures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Database"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#updatesAttendance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#updatesAttendance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Attendance_Record"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#uses_device -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#uses_device">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Attendance_Record -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Attendance_Record"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Database"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Device"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Institute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Institute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Nation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Nation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#System_Feedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#System_Feedback"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#AttendanceLog_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#AttendanceLog_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Attendance_Record"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Boris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Boris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Burkina_Faso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Burkina_Faso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Nation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Burkina_Institute_of_Technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Burkina_Institute_of_Technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Institute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Camera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Camera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Device"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Face_Recognition_Attendance_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Face_Recognition_Attendance_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#Project"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#WelcomeMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#WelcomeMessage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boris/ontologies/2024/11/untitled-ontology-5#System_Feedback"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

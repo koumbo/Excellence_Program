@@ -1,0 +1,1287 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology/"
+     xml:base="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:NoRessa="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#"
+     xmlns:farm-ontology="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#"
+     xmlns:untitled-ontology-12="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#"
+     xmlns:untitled-ontology-18="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#"
+     xmlns:untitled-ontology-28="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#"
+     xmlns:untitled-ontology-34="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology">
+        <owl:imports rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Convert_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Convert_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_production"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Inverters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Monitored_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Monitored_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pumping_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Filling_level_sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Stored_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Stored_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_production"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Batteries"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Used_for_fonctioning_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Used_for_fonctioning_a">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pumping_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pump"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#contridute_to_reduce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#contridute_to_reduce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#PV_Power_plant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Carbon_Emission"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#captures -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#captures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Recognition_Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Plant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#compares_features_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#compares_features_with">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Plant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Database"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#owns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#owns">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Recognition_Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#provides_feedback_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#provides_feedback_for">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Plant_Record"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#System_Feedback"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#updates_record -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#updates_record">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Database"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Plant_Record"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_goal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_goal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sustainableDeveloppementGoal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_project -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_project">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_student -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_student">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_university -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_university">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Nation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_an_api -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_an_api">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#returnEnglishAudio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#returnEnglishAudio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#returnMooreAudio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#returnMooreAudio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendEnglishAudioTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendEnglishAudioTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendMooreAudioTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendMooreAudioTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_a_automatic_irrigation_system -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_a_automatic_irrigation_system">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#irrigation_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_a_music_app -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_a_music_app">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Marketing_and_distribution_of_products"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_a_recognition_system -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_a_recognition_system">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#pest_and_disease_management_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Recognition_Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_a_transformation_system -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_a_transformation_system">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#product_transformation_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Cowpea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_an_energy_manager -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#has_an_energy_manager">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#energy_supply_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_Manager"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#request_a_description -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#request_a_description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#give_a_description_of_the_plant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#give_a_description_of_the_plant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#has_a_translation_app -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#has_a_translation_app">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#visitors&apos;_management_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#connect_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#connect_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_Source"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Irrigation_pipes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#controls -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#controls">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Arduino_Controller"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Solenoid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#has">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_Source"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Borehole"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#measures -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#measures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Soil_moisture_sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Soil_humidity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#monitors_water_usage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#monitors_water_usage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_Consumption_Monitoring"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_flow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#provides_water_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#provides_water_for">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Irrigation_pipes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Crops"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#regulates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#regulates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Solenoid"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_flow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Charge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Charge">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Storage_system"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Connect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Connect">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Power -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Power"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Assign -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Assign">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Consume -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Consume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#EducationMaterial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Create -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Create">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Song"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Discover -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Discover">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Visitor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Engage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Engage">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Visitor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Experience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Experience">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Song"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Visitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Inform -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Inform">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Song"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#EducationMaterial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Inspire -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Inspire">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#EducationMaterial"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Motivate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Motivate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Song"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Perform -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Perform">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Song"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Require -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Require">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#EducationMaterial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#support -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#support">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Sustainability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Processes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Processes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ball_Mill"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Cowpea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#isMonitoredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#isMonitoredBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ball_Mill"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Cowpea"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Milled_Cowpea"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sensors"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#produces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#produces">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ball_Mill"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Milled_Cowpea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#supports">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ball_Mill"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Milled_Cowpea"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sustainable_Goals"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#transform_in_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#transform_in_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Cowpea"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Milled_Cowpea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#uses">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ball_Mill"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Solar_Energy_System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Day_Energy_Consumption"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Night_Energy_Consumption"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Batteries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Batteries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_production"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Carbon_Emission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Carbon_Emission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#PV_Power_plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_Manager"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#PV_Power_plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Filling_level_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Filling_level_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pumping_system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Inverters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Inverters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_production"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#PV_Power_plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#PV_Power_plant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Energy_Manager"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pump -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pump">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pumping_system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pumping_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#Solar_pumping_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2025/0/untitled-ontology-33#PV_Power_plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Database"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Plant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Plant_Record -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Plant_Record"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Recognition_Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#Recognition_Device"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#System_Feedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boris/ontologies/2025/0/untitled-ontology-11#System_Feedback"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Nation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Nation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sustainableDeveloppementGoal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sustainableDeveloppementGoal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#energy_supply_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#energy_supply_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#product_transformation_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#product_transformation_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Marketing_and_distribution_of_products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Marketing_and_distribution_of_products"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#build_warehouses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#build_warehouses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#fencing_and_security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#fencing_and_security"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#irrigation_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#irrigation_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#land_preparation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#land_preparation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#pest_and_disease_management_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#pest_and_disease_management_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#soils_and_crops_monitoring_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#soils_and_crops_monitoring_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#waste_management_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#waste_management_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#crops&apos;_storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#crops&apos;_storage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#seeds&apos;_sowing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#seeds&apos;_sowing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#visitors&apos;_management_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#visitors&apos;_management_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Arduino_Controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Arduino_Controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Borehole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Borehole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_Source"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Crops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Crops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Irrigation_pipes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Irrigation_pipes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Sensors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Sensors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Soil_humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Soil_humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Soil_moisture_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Soil_moisture_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Solenoid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Solenoid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_Consumption_Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_Consumption_Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_flow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_Source -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_Source">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Water_flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charbel/ontologies/2025/0/automatic_irrigation_update#Automatic_Irrigation_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Day_Energy_Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Day_Energy_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#energy_supply_system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Night_Energy_Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Night_Energy_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#energy_supply_system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#energy_supply_system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Storage_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Storage_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#EducationMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#EducationMaterial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#MusicApplication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Song -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Song"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Sustainability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Sustainability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Visitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#Visitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ball_Mill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ball_Mill"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Cowpea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Cowpea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ecological_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ecological_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sustainable_Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Economic_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Economic_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sustainable_Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Milled_Cowpea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Milled_Cowpea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sensors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sensors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Societal_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Societal_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sustainable_Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Solar_Energy_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Solar_Energy_System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sustainable_Goals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sustainable_Goals"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Faso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Faso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Nation"/>
+        <NoRessa:has_a_university rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Institute_of_Technologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Institute_of_Technologies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Institute_of_Technologies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University"/>
+        <NoRessa:has_a_student rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado_KONGO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+        <NoRessa:sendMooreAudioTo rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado_KONGO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado_KONGO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student"/>
+        <NoRessa:has_a_project rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Jens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Jens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+        <NoRessa:sendEnglishAudioTo rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <NoRessa:has_a_goal rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#10_Reduce_inequality_within_and_among_countries"/>
+        <NoRessa:returnEnglishAudio rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Jens"/>
+        <NoRessa:returnMooreAudio rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado"/>
+        <untitled-ontology-12:give_a_description_of_the_plant rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#Suzanne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#10_Reduce_inequality_within_and_among_countries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#10_Reduce_inequality_within_and_among_countries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sustainableDeveloppementGoal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#Suzanne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/farm-ontology#Suzanne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+        <farm-ontology:request_a_description rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Ball_Mill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Ball_Mill"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Face_Recognition_system -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#Face_Recognition_system">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#fencing_and_security"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#cowpea_thresher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#cowpea_thresher"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#energy_manager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#energy_manager"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#smart_dryer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#smart_dryer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2025/0/untitled-ontology-12#crops&apos;_storage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Appliances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Appliances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Day_Energy_Consumption"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Night_Appliances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Night_Appliances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Night_Energy_Consumption"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Lithium_batteries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Lithium_batteries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Storage_system"/>
+        <untitled-ontology-18:Power rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Night_Appliances"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_panels -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_panels">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+        <untitled-ontology-18:Connect rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Sunny_island"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Sunny_island -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Sunny_island">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters"/>
+        <untitled-ontology-18:Charge rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Lithium_batteries"/>
+        <untitled-ontology-18:Power rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Appliances"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#EducationMaterial2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#EducationMaterial2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#FarmTask001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#FarmTask001"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#song12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#song12"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#user1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#user1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#visitor10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nakelseadjara/ontologies/2024/11/untitled-ontology-28#visitor10"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Add_value_to_raw_cowpea_and_create_Market_ready_product -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Add_value_to_raw_cowpea_and_create_Market_ready_product">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Economic_Impact"/>
+        <untitled-ontology-34:supports rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Add_value_to_raw_cowpea_and_create_Market_ready_product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon_motor_drivers_MOSFETs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon_motor_drivers_MOSFETs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sensors"/>
+        <untitled-ontology-34:isMonitoredBy rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon_motor_drivers_MOSFETs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon_sensors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon_sensors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sensors"/>
+        <untitled-ontology-34:isMonitoredBy rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon_sensors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#support_local_food_production_ans_enhance_community_livelihoods -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#support_local_food_production_ans_enhance_community_livelihoods">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Societal_Impact"/>
+        <untitled-ontology-34:supports rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#support_local_food_production_ans_enhance_community_livelihoods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#use_of_renewable_energy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#use_of_renewable_energy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Ecological_Impact"/>
+        <untitled-ontology-34:supports rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#use_of_renewable_energy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon’s_power_management_ICs_for_solar_energy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon’s_power_management_ICs_for_solar_energy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Sensors"/>
+        <untitled-ontology-34:isMonitoredBy rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2025/0/untitled-ontology-34#Infineon’s_power_management_ICs_for_solar_energy"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa/"
+     xml:base="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:NoRessa="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa">
+        <rdfs:comment>This is the ontology for my project No-Reesa</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Play_the_English_Audio_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Play_the_English_Audio_for">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#BusinessPartner"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_business_partner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_business_partner">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#BusinessPartner"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_mobile_app -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_mobile_app">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_project -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_project">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_student -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_student">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_trader -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_trader">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#UnschooledTrader"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_university -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_a_university">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Nation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_an_api -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#has_an_api">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Api"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#playMooreAudioFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#playMooreAudioFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#UnschooledTrader"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#recordEnglishSpeechAndSubmit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#recordEnglishSpeechAndSubmit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#BusinessPartner"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#recordMooreSpeechAndSubmit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#recordMooreSpeechAndSubmit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#UnschooledTrader"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#returnCorrespondingMooreAudio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#returnCorrespondingMooreAudio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Api"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendEnglishAudioTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendEnglishAudioTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Api"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendMooreAudioTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendMooreAudioTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Api"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendTheCorrespondingEnglishSpeechTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#sendTheCorrespondingEnglishSpeechTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Api"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Api -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Api"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#BusinessPartner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#BusinessPartner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#MobileApp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Nation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Nation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University"/>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#UnschooledTrader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#UnschooledTrader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#User"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Faso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Faso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Nation"/>
+        <NoRessa:has_a_university rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Institute_of_Technologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Institute_of_Technologies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Burkina_Institute_of_Technologies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#University"/>
+        <NoRessa:has_a_student rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado_KONGO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado_KONGO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Hamado_KONGO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Student"/>
+        <NoRessa:has_a_project rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#No_Reesa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/btc/ontologies/2024/11/NoRessa#Project"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

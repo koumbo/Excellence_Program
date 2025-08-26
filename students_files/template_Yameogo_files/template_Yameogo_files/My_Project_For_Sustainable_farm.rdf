@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18/"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-18="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Charge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Charge">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Storage_system"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Connect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Connect">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Power -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Power"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Day_Energy_Consumption"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Night_Energy_Consumption"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Day_Energy_Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Day_Energy_Consumption"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Night_Energy_Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Night_Energy_Consumption"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Storage_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Storage_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Appliances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Appliances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Day_Energy_Consumption"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Night_Appliances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Night_Appliances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Night_Energy_Consumption"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Lithium_batteries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Lithium_batteries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Storage_system"/>
+        <untitled-ontology-18:Power rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Night_Appliances"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_panels -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_panels">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Solar_Tracking_System"/>
+        <untitled-ontology-18:Connect rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Sunny_island"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Sunny_island -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Sunny_island">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Smart_Inverters"/>
+        <untitled-ontology-18:Charge rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#Lithium_batteries"/>
+        <untitled-ontology-18:Power rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-18#All_Appliances"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

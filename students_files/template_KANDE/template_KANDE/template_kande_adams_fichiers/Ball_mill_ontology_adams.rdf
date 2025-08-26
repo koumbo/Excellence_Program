@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10/"
+     xml:base="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Has_an_institute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Has_an_institute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Nation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Institute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Mitigate_impacts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Mitigate_impacts">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Measure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Impacts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_flow -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_flow">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Flow_sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Flow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_grinding_time -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_grinding_time">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Grinding_time_sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Grinding_time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_load -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_load">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Load_sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Load"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_speed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_speed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Speed_sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Rationnal_speed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_temperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Monitor_temperature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Temperature_sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Temperation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Show_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Show_on">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Iot_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Interface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#composed_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#composed_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball_Mill"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#control_parameters -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#control_parameters">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#has_impacts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#has_impacts">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball_Mill"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Impacts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#has_operationnal_parameters -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#has_operationnal_parameters">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball_Mill"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#input -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#input">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Extracted_gold_ore"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball_Mill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#produce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#produce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball_Mill"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Powdered_Gold_ore"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#send_data_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#send_data_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Iot_system"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#was_developed_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#was_developed_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball_Mill"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Institute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Air_pollution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Air_pollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Environnemental_impacts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball_Mill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Ball_Mill"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Bearings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Bearings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Drum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Drum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Electric_motor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Electric_motor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Environnemental_impacts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Environnemental_impacts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Impacts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Extracted_gold_ore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Extracted_gold_ore"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Flow_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Flow_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Gears -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Gears">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Grinding_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Grinding_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Grinding_time_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Grinding_time_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Health_impacts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Health_impacts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Impacts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Impacts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Impacts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Institute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Institute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Interface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Iot_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Iot_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Load -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Load">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Load_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Load_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Measure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Measure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Nation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Nation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Noise_cancelling_headphones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Noise_cancelling_headphones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Measure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Noise_exposure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Noise_exposure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Health_impacts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Powdered_Gold_ore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Powdered_Gold_ore"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Rationnal_speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Rationnal_speed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Reducer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Reducer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Respiratory_Mask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Respiratory_Mask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Measure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Speed_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Speed_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Temperation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Temperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Operationnal_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Temperature_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Temperature_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Wet_grinding_Environnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Wet_grinding_Environnement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Measure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#dust_exposure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#dust_exposure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Health_impacts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#lining_plates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#lining_plates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Burkina_Faso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Burkina_Faso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Nation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Burkina_Institute_of_Technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Burkina_Institute_of_Technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vivacity/ontologies/2024/11/untitled-ontology-10#Institute"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8/"
+     xml:base="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Affected_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Affected_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Contains"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#PV_Panels"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Environmental_condition_(Weather)"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Analyze -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Analyze">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#The_Power_plant_Energy_Efficiency_Study"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Calculate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Calculate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Carbon_Footprint_(CO2)"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Cause -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Cause">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Affected_by"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Conversion_losses"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Environmental_condition_(Weather)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Energy_losses"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Compared_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Compared_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Calculate"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Carbon_Footprint_(CO2)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Fossil_Fuels"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Contains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Components"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Batteries"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Inverters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#PV_Panels"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Functioning -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Functioning">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Contains"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Inverters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Conversion_losses"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Highlights -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Highlights">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Analyze"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#The_Power_plant_Energy_Efficiency_Study"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Optimization_strategies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Monitored_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Monitored_by">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Weather_station_ATMOS_41"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Provides_data_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Provides_data_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Monitored_by"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Weather_station_ATMOS_41"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Irradiance_and_Temperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Reduced_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Reduced_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Energy_losses"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Optimization_strategies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Store -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Store">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Contains"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Batteries"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Excess_Energy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#These_principal_sources_are -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#These_principal_sources_are">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Used_as_main_energy_source"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Renewable_Enegies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Biomass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Solar_energy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Used_as_main_energy_source -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Used_as_main_energy_source">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Burkina_Faso"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Fosil_fuel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Renewable_Enegies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_used_PV_solar_energy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_used_PV_solar_energy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Solar_energy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Batteries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Batteries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Biomass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Biomass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Renewable_Enegies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Burkina_Faso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Burkina_Faso"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Burkina_Institute_of_technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Burkina_Institute_of_technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Conversion_losses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Conversion_losses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Inverters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Energy_losses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Energy_losses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Excess_Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Excess_Energy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Batteries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Fosil_fuel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Fosil_fuel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Burkina_Faso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Fossil_Fuels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Fossil_Fuels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Carbon_Footprint_(CO2)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Inverters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Inverters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Irradiance_and_Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Irradiance_and_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Weather_station_ATMOS_41"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Optimization_strategies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Optimization_strategies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#The_Power_plant_Energy_Efficiency_Study"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#PV_Panels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#PV_Panels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Renewable_Enegies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Renewable_Enegies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Burkina_Faso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Solar_energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Solar_energy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Renewable_Enegies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#The_Power_plant_Energy_Efficiency_Study -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#The_Power_plant_Energy_Efficiency_Study">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Weather_station_ATMOS_41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Weather_station_ATMOS_41">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Burkina_Institute_of_technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Carbon_Footprint_(CO2) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Carbon_Footprint_(CO2)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#BIT&apos;s_PV_Power_plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Environmental_condition_(Weather) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#Environmental_condition_(Weather)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abcd/ontologies/2024/11/untitled-ontology-8#PV_Panels"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

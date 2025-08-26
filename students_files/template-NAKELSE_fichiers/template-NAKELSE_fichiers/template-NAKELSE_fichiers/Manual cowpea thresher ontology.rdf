@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2024/11/untitled-ontology-9/"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2024/11/untitled-ontology-9/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ManualCowpeaThresherOntology="urn:absolute:ManualCowpeaThresherOntology#">
+    <owl:Ontology rdf:about="urn:absolute:ManualCowpeaThresherOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Developed_by -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Developed_by">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Project"/>
+        <rdfs:comment>Links Machine to Project</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Develops -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Develops">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Institute"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+        <rdfs:comment>Links Institute to Machine.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Hosts -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Hosts">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Nation"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Small-scale_Farmers"/>
+        <rdfs:comment>Links Nation to small-scale Farmers.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Processes -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Processes">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Inputs"/>
+        <rdfs:comment>Links Machine to Unthreshed Cowpeas</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Produces -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Produces">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Outputs"/>
+        <rdfs:comment>Links Machine to Outputs.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Proposes_Solution_for -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Proposes_Solution_for">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Field_of_Study"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Challenge"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Repurposed_as -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Repurposed_as">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Animal_feed"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Biofuel"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Fertilizer"/>
+        <rdfs:comment>Links Chaff to Animal feed, Fertilizer, or Biofuel.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Solves -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Solves">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Challenge"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Train_In -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ManualCowpeaThresherOntology#Train_In">
+        <rdfs:domain rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Institute"/>
+        <rdfs:range rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Field_of_Study"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Agricultural_Mechanical_Engineering -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Agricultural_Mechanical_Engineering">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Field_of_Study"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Animal_feed -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Animal_feed">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Biofuel -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Biofuel">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Blower -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Blower">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Burkina_Faso -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Burkina_Faso">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Nation"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Burkina_Institute_of_Technology -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Burkina_Institute_of_Technology">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Institute"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Chaff -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Chaff">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Outputs"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Challenge -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Challenge"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Cleaned_seeds -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Cleaned_seeds">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Outputs"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Farmers -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Farmers"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Fertilizer -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Fertilizer">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Field_of_Study -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Field_of_Study"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Hopper -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Hopper">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Inputs -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Inputs"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Institute -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Institute"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Machine -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Nation -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Nation"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Outputs -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Outputs"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Project -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Project"/>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Small-_scale_Farmers_Farming_Challenges -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Small-_scale_Farmers_Farming_Challenges">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Challenge"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Small-scale_Farmers -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Small-scale_Farmers">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Farmers"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Thesis_Project -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Thesis_Project">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Threshing_Drum -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Threshing_Drum">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Unthreshed_Cowpeas -->
+
+    <owl:Class rdf:about="urn:absolute:ManualCowpeaThresherOntology#Unthreshed_Cowpeas">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Inputs"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Agricultural_Mechanical_Egineering -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Agricultural_Mechanical_Egineering">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Field_of_Study"/>
+        <ManualCowpeaThresherOntology:Proposes_Solution_for rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Small-scale_Farming_Challenges"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Animal_Feed -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Animal_Feed">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Biofuel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Biofuel">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Burkina_Faso -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Burkina_Faso">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Nation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Burkina_Institute_of_Technology -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Burkina_Institute_of_Technology">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Institute"/>
+        <ManualCowpeaThresherOntology:Train_In rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Agricultural_Mechanical_Egineering"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Chaff -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Chaff">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Outputs"/>
+        <ManualCowpeaThresherOntology:Repurposed_as rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Animal_Feed"/>
+        <ManualCowpeaThresherOntology:Repurposed_as rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Biofuel"/>
+        <ManualCowpeaThresherOntology:Repurposed_as rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Fertilizer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Cleaned_Seeds -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Cleaned_Seeds">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Outputs"/>
+        <ManualCowpeaThresherOntology:Produces rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Fertilizer -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Fertilizer">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Manual_Cowpea_Thresher -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Manual_Cowpea_Thresher">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Machine"/>
+        <ManualCowpeaThresherOntology:Processes rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Unthreshed_Cowpeas-"/>
+        <ManualCowpeaThresherOntology:Produces rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Chaff"/>
+        <ManualCowpeaThresherOntology:Produces rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Cleaned_Seeds"/>
+        <ManualCowpeaThresherOntology:Solves rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Small-scale_Farming_Challenges"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Small-scale_Farming_Challenges -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Small-scale_Farming_Challenges">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Challenge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Thesis_Project -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Thesis_Project">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Project"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ManualCowpeaThresherOntology#Unthreshed_Cowpeas- -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ManualCowpeaThresherOntology#Unthreshed_Cowpeas-">
+        <rdf:type rdf:resource="urn:absolute:ManualCowpeaThresherOntology#Inputs"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

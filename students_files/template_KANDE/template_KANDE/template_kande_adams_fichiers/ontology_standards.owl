@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-37 "http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#"
+     xml:base="http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-37="http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#ensure -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-37;ensure">
+        <rdfs:range rdf:resource="&untitled-ontology-37;Ball_mill"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-37;Performance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#ensuresQualityFo -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-37;ensuresQualityFo">
+        <rdfs:range rdf:resource="&untitled-ontology-37;Ball_mill"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-37;Design"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-37;Manufacturing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#ensuresSafetyFor -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-37;ensuresSafetyFor">
+        <rdfs:range rdf:resource="&untitled-ontology-37;Ball_mill"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-37;MaterialHandling"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-37;operation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#Ball_mill -->
+
+    <owl:Class rdf:about="&untitled-ontology-37;Ball_mill"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#Design -->
+
+    <owl:Class rdf:about="&untitled-ontology-37;Design">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;Ball_mill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#Manufacturing -->
+
+    <owl:Class rdf:about="&untitled-ontology-37;Manufacturing">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;Ball_mill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#MaterialHandling -->
+
+    <owl:Class rdf:about="&untitled-ontology-37;MaterialHandling">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;Ball_mill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#Performance -->
+
+    <owl:Class rdf:about="&untitled-ontology-37;Performance">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;Ball_mill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#operation -->
+
+    <owl:Class rdf:about="&untitled-ontology-37;operation">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;Ball_mill"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#ASTM_A532 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-37;ASTM_A532">
+        <rdf:type rdf:resource="&untitled-ontology-37;Design"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#BS_4844 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-37;BS_4844">
+        <rdf:type rdf:resource="&untitled-ontology-37;Performance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#ISO_45001,_ISO_10816-1 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-37;ISO_45001,_ISO_10816-1">
+        <rdf:type rdf:resource="&untitled-ontology-37;operation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#ISO_561,_ANSI_ASME_B20.1 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-37;ISO_561,_ANSI_ASME_B20.1">
+        <rdf:type rdf:resource="&untitled-ontology-37;MaterialHandling"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vivacity/ontologies/2025/2/untitled-ontology-37#ISO_9001 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-37;ISO_9001">
+        <rdf:type rdf:resource="&untitled-ontology-37;Manufacturing"/>
+        <ensuresQualityFo rdf:resource="&untitled-ontology-37;ISO_9001"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

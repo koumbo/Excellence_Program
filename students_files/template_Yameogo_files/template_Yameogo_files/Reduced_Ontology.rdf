@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15/"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-15="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Address_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Address_to">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Project"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#UN_Sustainable_Development_Goal"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Composed_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Composed_Of">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Project"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Components"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Create -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Create">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Institute"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Project"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Deliver -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Deliver">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Components"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Output"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Host -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Host">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Nation"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Institute"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Optimize_The_Energy_production -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Optimize_The_Energy_production">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Components"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Components"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Institute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Institute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Nation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Nation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Output -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Output">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#UN_Sustainable_Development_Goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#UN_Sustainable_Development_Goal"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Burkina_Faso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Burkina_Faso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Nation"/>
+        <untitled-ontology-15:Host rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Burkina_Institute_Of_Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Burkina_Institute_Of_Technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Burkina_Institute_Of_Technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Institute"/>
+        <untitled-ontology-15:Create rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Solar_Tracking_System"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Current -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Current">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Output"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Goal_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Goal_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#UN_Sustainable_Development_Goal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Sensor_Servo_Structure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Sensor_Servo_Structure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Components"/>
+        <untitled-ontology-15:Optimize_The_Energy_production rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Solar_Panel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Solar_Panel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Solar_Panel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Components"/>
+        <untitled-ontology-15:Deliver rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Current"/>
+        <untitled-ontology-15:Deliver rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Voltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Solar_Tracking_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Solar_Tracking_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Project"/>
+        <untitled-ontology-15:Address_to rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Goal_7"/>
+        <untitled-ontology-15:Composed_Of rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Sensor_Servo_Structure"/>
+        <untitled-ontology-15:Composed_Of rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Solar_Panel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Voltage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Voltage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-15#Output"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
